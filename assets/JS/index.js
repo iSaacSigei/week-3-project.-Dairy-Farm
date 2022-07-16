@@ -40,4 +40,21 @@ function incomeOverTime(selling_price, time) {
   document.getElementsByClassName("timely-earnings")[0].innerHTML = yearlyEarningsString
 
 }
+incomeOverTime(45, 365);
+
+function monthlyIncome() {
+  let totals = document.getElementsByName("total-output")[0].value;
+
+  let janEarnings = `Your income for January is ${Number(totals) * 45 * 31}`;
+  let febEarnings = `Your income for February is ${Number(totals) * 45 * 29}`;
+  let marchEarnings = `Your income for March is ${Number(totals) * 45 * 31}`;
+  let aprEarnings = `Your income for April is ${Number(totals) * 45 * 30}`;
+  let mayEarnings = `Your income for May is ${Number(totals) * 45 * 31}`;
+  let juneEarnings = `Your income for June is ${Number(totals) * 45 * 30}`;
+  let julyEarnings = `Your income for July is ${Number(totals) * 45 * 31}`;
+  let augEarnings = `Your income for August is ${Number(totals) * 45 * 31}`;
+  let sepEarnings = `Your income for September is ${Number(totals) * 45 * 30}`;
+  let octEarnings = `Your income for October is ${Number(totals) * 45 * 31}`;
+  let novEarnings = `Your income for November is ${Number(totals) * 45 * 30}`;
+  let decEarnings = `Your income for December is ${Number(totals) * 45 * 31}`;
  
