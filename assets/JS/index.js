@@ -18,4 +18,3 @@ function totalProduction() {
     let shedCtotal = `Your production in shed C is ${shedCProduction} `;
     let shedDtotal = `Your production in shed D is ${shedDProduction} `;
   
-   
