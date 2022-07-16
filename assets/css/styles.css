@@ -143,7 +143,7 @@ nav img{
     margin: auto;
     margin-left: 10%
     margin-right: 10%; 
-    background:#7681d3;
+    background: #7681d3;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -153,7 +153,7 @@ nav img{
     justify-content: space-between;
     background: whitesmoke
     margin-top: 26px;
-    margin: auto;
+    /* margin: auto; */
 
 }
 .montly-form-section > h3{
