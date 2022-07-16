@@ -11,4 +11,11 @@ function totalProduction() {
       Number(shedCProduction) +
       Number(shedDProduction);
   
+    document.getElementsByName("sum")[0].value = total;
+  
+    let shedAtotal = `Your production in shed A is ${shedAProduction} `;
+    let shedBtotal = `Your production in shed B is ${shedBProduction} `;
+    let shedCtotal = `Your production in shed C is ${shedCProduction} `;
+    let shedDtotal = `Your production in shed D is ${shedDProduction} `;
+  
    
