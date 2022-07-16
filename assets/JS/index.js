@@ -28,3 +28,16 @@ function totalProduction() {
    document.getElementsByClassName("total-production")[0].innerHTML =
     totalShedsProduction;
 }
+
+totalProduction();
+
+function incomeOverTime(selling_price, time) {
+  let totals = document.getElementsByName("total-daily")[0].value;
+  let yearlyEarnings = Number(totals) * selling_price * time;
+
+  let yearlyEarningsString = `Your yearly earnings are ${yearlyEarnings}`;
+
+  document.getElementsByClassName("timely-earnings")[0].innerHTML = yearlyEarningsString
+
+}
+ 
