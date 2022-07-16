@@ -119,12 +119,17 @@ nav img{
         z-index: 2;
     }
 }
-.production-automation{
+.record-input-section{
     display: flex;
     width: 90% !important;
     justify-content: space-between;
     background: rgb(233, 232, 232);
     margin-top: 26px;
     margin: auto;
+
+}
+
+.production-automation h1{
+text-align: center;
 
 }
