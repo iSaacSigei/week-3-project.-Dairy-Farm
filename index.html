@@ -50,8 +50,11 @@
         <h1 class="page-title">Dairy Farm Records</h1>
         <div class="record-input-section">
             
-             <!-- filling daily production per -->
+           <!-- filling daily production per -->
+
              <div class="input-per-shed">
+                <h1 id="input-prompt"> Kindly Fill in the daily<br>production
+                per shed </h1>
                         <form>
                             Shed A: <input type="number" name="shedAProduction" /><br />
                             Shed B: <input type="number" name="shedBProduction" /><br />
@@ -62,6 +65,7 @@
                         </form>
                     </div>
                <!-- Production per shed -->
+               <div class="input-per-shed">
                         <div class="shed-total-production">
                             <p class="shedA-total"></p>
                             <p class="shedB-total"></p>
@@ -69,8 +73,9 @@
                             <p class="shedD-total"></p>
                             <p class="total-production"></p>
                         </div>
-                        <br />
+                </div>
                <!-- Yearly Production Calculation -->
+               <div class="input-per-shed">
                     <div class="yearly-pproduction">
                         <h3>Yearly income</h3>
 
@@ -83,8 +88,17 @@
                         <br />
 
                     </div>
+                </div>
         </div>
+        <!-- Montly income section  -->
+        <div class="montly-come">
+                <h3>Montly income</h3>
 
+                <form>
+                Enter total-production: <input type="number" name="total-output" /><br />
+                <input type="button" value="Calculate" onclick="monthlyIncome()" />
+                </form>
+        </div>
     </div>
 </div>
 </body>
