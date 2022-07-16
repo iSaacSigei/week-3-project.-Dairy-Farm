@@ -55,7 +55,51 @@
                     Shed D: <input type="number" name="shedDProduction" /><br />
                     Sum: <input type="number" name="sum" /><br />
                     <input type="button" value="Total" onclick="totalProduction()" />
-    
+                </form>
+    <!-- Production per shed -->
+                <div class="shed-total-production">
+                    <p class="shedA-total"></p>
+                    <p class="shedB-total"></p>
+                    <p class="shedC-total"></p>
+                    <p class="shedD-total"></p>
+                    <p class="total-production"></p>
+                </div>
+
+    <br />
+    <h3>Timely income</h3>
+
+    <form>
+      Enter total-production: <input type="number" name="total-daily" /><br />
+      <input type="button" value="Calculate" onclick="incomeOverTime(45, 365)" />
+    </form>
+
+    <p class="timely-earnings"></p>
+    <br />
+
+    <h3>Montly income</h3>
+
+    <form>
+      Enter total-production: <input type="number" name="total-output" /><br />
+      <input type="button" value="Calculate" onclick="monthlyIncome()" />
+    </form>
+
+    <div>
+      <p class="jan-total"></p>
+      <p class="feb-total"></p>
+      <p class="mar-total"></p>
+      <p class="apr-total"></p>
+      <p class="may-total"></p>
+      <p class="june-total"></p>
+      <p class="jul-total"></p>
+      <p class="aug-total"></p>
+      <p class="sep-total"></p>
+      <p class="oct-total"></p>
+      <p class="nov-total"></p>
+      <p class="dec-total"></p>
+    </div>
+
+    <script type="text/javascript" src="./main.js"></script>
+
 
     </section>
     </section>
