@@ -38,7 +38,7 @@ nav img{
 .nav-links ul li::after{
     content: "";
     width: 0%;
-    height: 2px;
+    height: 3px;
     background: #f44336;
     display: block;
     margin: auto;
@@ -47,7 +47,15 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
-.text-box{
+.cover-page{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    /* align-items: center;
+    margin: auto;
+    flex-direction: row; */
+}
+/* .left{
     width: 80%;
     color: #fff;
     position: absolute;
@@ -65,7 +73,7 @@ nav img{
     margin: 10px 0px 40px;
     font-size: 26px;
     color: #fff;
-    /* text-align: left; */
+
 }
 .page-btn{
     display: inline-block;
@@ -86,9 +94,9 @@ nav img{
 }
 nav .fa{
     display: none;
-}
+} */
 
-
+/* 
 @media(max-width:700px){
 
     .text-box h1{
@@ -109,4 +117,4 @@ nav .fa{
         text-align: left;
         z-index: 2;
     }
-}
+} */
