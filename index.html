@@ -44,42 +44,44 @@
             
         </div>
     </div>
-<!-- production records automation -->
-    <section class="production-automation">
+   <!-- production records automation -->
+    <div class="production-automation">
+        
              <h1 class="page-title">Dairy Farm Records</h1>
-<!-- filling daily production per -->
-                <form>
-                    Shed A: <input type="number" name="shedAProduction" /><br />
-                    Shed B: <input type="number" name="shedBProduction" /><br />
-                    Shed C: <input type="number" name="shedCProduction" /><br />
-                    Shed D: <input type="number" name="shedDProduction" /><br />
-                    Sum: <input type="number" name="sum" /><br />
-                    <input type="button" value="Total" onclick="totalProduction()" />
-                </form>
-    <!-- Production per shed -->
-                <div class="shed-total-production">
-                    <p class="shedA-total"></p>
-                    <p class="shedB-total"></p>
-                    <p class="shedC-total"></p>
-                    <p class="shedD-total"></p>
-                    <p class="total-production"></p>
-                </div>
-                <br />
-    <!-- Yearly Production Calculation -->
-            <div class="yearly-pproduction">
-                <h3>Timely income</h3>
+             <!-- filling daily production per -->
+                        <form>
+                            Shed A: <input type="number" name="shedAProduction" /><br />
+                            Shed B: <input type="number" name="shedBProduction" /><br />
+                            Shed C: <input type="number" name="shedCProduction" /><br />
+                            Shed D: <input type="number" name="shedDProduction" /><br />
+                            Sum: <input type="number" name="sum" /><br />
+                            <input type="button" value="Total" onclick="totalProduction()" />
+                        </form>
+               <!-- Production per shed -->
+                        <div class="shed-total-production">
+                            <p class="shedA-total"></p>
+                            <p class="shedB-total"></p>
+                            <p class="shedC-total"></p>
+                            <p class="shedD-total"></p>
+                            <p class="total-production"></p>
+                        </div>
+                        <br />
+               <!-- Yearly Production Calculation -->
+                    <div class="yearly-pproduction">
+                        <h3>Timely income</h3>
 
-                <form>
-                Enter total-production: <input type="number" name="total-daily" /><br />
-                <input type="button" value="Calculate" onclick="incomeOverTime(45, 365)" />
-                </form>
+                        <form>
+                        Enter total-production: <input type="number" name="total-daily" /><br />
+                        <input type="button" value="Calculate" onclick="incomeOverTime(45, 365)" />
+                        </form>
 
-                <p class="timely-earnings"></p>
-                <br />
+                        <p class="timely-earnings"></p>
+                        <br />
 
-            </div>
+                    </div>
+      
 
-    </section>
+    </div>
 </div>
 </body>
 </html>
