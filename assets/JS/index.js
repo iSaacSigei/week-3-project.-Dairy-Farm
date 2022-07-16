@@ -18,3 +18,7 @@ function totalProduction() {
     let shedCtotal = `Your production in shed C is ${shedCProduction} `;
     let shedDtotal = `Your production in shed D is ${shedDProduction} `;
   
+    document.getElementsByClassName("shedA-total")[0].innerHTML = shedAtotal;
+    document.getElementsByClassName("shedB-total")[0].innerHTML = shedBtotal;
+    document.getElementsByClassName("shedC-total")[0].innerHTML = shedCtotal;
+    document.getElementsByClassName("shedD-total")[0].innerHTML = shedDtotal;
