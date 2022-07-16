@@ -119,7 +119,12 @@ nav img{
         z-index: 2;
     }
 }
-.right img{
-    width: 600px;
-    height: 700px;
+.production-automation{
+    display: flex;
+    width: 90% !important;
+    justify-content: space-between;
+    background: rgb(233, 232, 232);
+    margin-top: 26px;
+    margin: auto;
+
 }
