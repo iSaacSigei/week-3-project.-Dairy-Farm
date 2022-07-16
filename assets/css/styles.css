@@ -147,3 +147,14 @@ nav img{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.montly-come{
+    display: flex;
+    width: 90% !important;
+    justify-content: space-between;
+    background: whitesmoke
+    margin-top: 26px;
+    margin: auto;
+
+}
+    
+}
