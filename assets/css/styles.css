@@ -4,12 +4,8 @@
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    min-height: 100vh;
     width: 100%;
-    background-image: url("../images/dairy-farm-new-hampshire-new-england-america.jpg");
-    background-position: center;
-    background-size: cover;
-    position: relative;
+    
 } 
 nav{
     display:flex;
@@ -47,10 +43,12 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
-.cover-page{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
+.cover-background{
+    width: 100%;
+    background-image: url("../images/leon-ephraim-AxoNnnH1Y98-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
     /* align-items: center;
     margin: auto;
     flex-direction: row; */
