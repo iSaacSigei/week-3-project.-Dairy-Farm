@@ -58,3 +58,16 @@ function monthlyIncome() {
   let novEarnings = `Your income for November is ${Number(totals) * 45 * 30}`;
   let decEarnings = `Your income for December is ${Number(totals) * 45 * 31}`;
  
+  document.getElementsByClassName("jan-total")[0].innerHTML = janEarnings;
+  document.getElementsByClassName("feb-total")[0].innerHTML = febEarnings;
+  document.getElementsByClassName("mar-total")[0].innerHTML = marchEarnings;
+  document.getElementsByClassName("apr-total")[0].innerHTML = aprEarnings;
+  document.getElementsByClassName("may-total")[0].innerHTML = mayEarnings;
+  document.getElementsByClassName("june-total")[0].innerHTML = juneEarnings;
+  document.getElementsByClassName("jul-total")[0].innerHTML = julyEarnings;
+  document.getElementsByClassName("aug-total")[0].innerHTML = augEarnings;
+  document.getElementsByClassName("sep-total")[0].innerHTML = sepEarnings;
+  document.getElementsByClassName("oct-total")[0].innerHTML = octEarnings;
+  document.getElementsByClassName("nov-total")[0].innerHTML = novEarnings;
+  document.getElementsByClassName("dec-total")[0].innerHTML = decEarnings;
+}
