@@ -123,13 +123,27 @@ nav img{
     display: flex;
     width: 90% !important;
     justify-content: space-between;
-    background: rgb(233, 232, 232);
+    background: whitesmoke
     margin-top: 26px;
     margin: auto;
 
 }
+.input-per-shed{
+    padding-top: 30px;
+    box-sizing: border-box;
+    justify-content: center;
+    border: 1px solid rgb(202, 202, 202);
+    padding-right: 18px;
+    margin-top: 18px;
+    margin-bottom: 100px;
+}
 
-.production-automation h1{
-text-align: center;
-
+.page-title{
+    text-align: center;
+    margin: auto;
+    margin-left: 10%
+    margin-right: 10%; 
+    background:#7681d3;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
