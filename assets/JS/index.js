@@ -22,3 +22,9 @@ function totalProduction() {
     document.getElementsByClassName("shedB-total")[0].innerHTML = shedBtotal;
     document.getElementsByClassName("shedC-total")[0].innerHTML = shedCtotal;
     document.getElementsByClassName("shedD-total")[0].innerHTML = shedDtotal;
+
+    totalShedsProduction = `Your total production is ${total} `;
+
+   document.getElementsByClassName("total-production")[0].innerHTML =
+    totalShedsProduction;
+}
