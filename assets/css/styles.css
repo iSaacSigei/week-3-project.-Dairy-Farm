@@ -4,18 +4,15 @@
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    min-height: 100vh;
     width: 100%;
-    background-image: url("../images/dairy-farm-new-hampshire-new-england-america.jpg");
-    background-position: center;
-    background-size: cover;
-    position: relative;
+    
 } 
 nav{
     display:flex;
     padding: 1% 4%;
     justify-content: space-between;
     align-items: center;
+    background: #111e88;
 }
 nav img{ 
     width: 150px;
@@ -38,7 +35,7 @@ nav img{
 .nav-links ul li::after{
     content: "";
     width: 0%;
-    height: 2px;
+    height: 3px;
     background: #f44336;
     display: block;
     margin: auto;
@@ -47,31 +44,47 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
-.text-box{
+.cover-background{
+    width: 100%;
+    background-image: url("../images/leon-ephraim-AxoNnnH1Y98-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    /* align-items: center;
+    margin: auto;
+    flex-direction: row; */
+}
+.cover-page{
+    display: flex;
+    justify-content: center;
     width: 80%;
-    color: #fff;
-    position: absolute;
-    top: 40%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    flex-direction: row;
 
 }
-.text-box h1{
+ .left{
+    width: 80%;
+    color: black;
+    margin: auto;
+    margin-top: 60px;
+    margin-left: 10%;
+
+}
+.left h1{
     font-size: 52px;
 
 }
-.text-box p{
+.left p{
     margin: 10px 0px 40px;
     font-size: 26px;
-    color: #fff;
-    /* text-align: left; */
+    color: rgb(27, 25, 25);
+
 }
 .page-btn{
     display: inline-block;
     text-decoration: none;
-    color:#fff;
-    border:1px solid #fff;
+    color:black;
+    border:1px solid rgb(27, 25, 25);
     margin-top: 60px;
     padding: 12px 34px;
     font-size: 20px;
@@ -84,14 +97,10 @@ nav img{
     background: #f44336;
     transition: 1s;
 }
-nav .fa{
-    display: none;
-}
-
 
 @media(max-width:700px){
 
-    .text-box h1{
+    .left h1{
        font-size: 20px;
     }
     .nav-links ul li{
@@ -110,3 +119,45 @@ nav .fa{
         z-index: 2;
     }
 }
+.record-input-section{
+    display: flex;
+    width: 90% !important;
+    justify-content: space-between;
+    background: whitesmoke
+    margin-top: 26px;
+    margin: auto;
+
+}
+.input-per-shed{
+    padding-top: 30px;
+    box-sizing: border-box;
+    justify-content: center;
+    border: 1px solid rgb(202, 202, 202);
+    padding-right: 18px;
+    margin-top: 18px;
+    margin-bottom: 100px;
+}
+
+.page-title{
+    text-align: center;
+    margin: auto;
+    margin-left: 10%
+    margin-right: 10%; 
+    background:#7681d3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.montly-come{
+    display: flex;
+    width: 90% !important;
+    justify-content: space-between;
+    background: whitesmoke
+    margin-top: 26px;
+    margin: auto;
+
+}
+.montly-form-section > h3{
+    text-align: left;
+
+}
+    
