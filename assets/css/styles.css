@@ -62,6 +62,32 @@ nav img{
     flex-direction: row;
 
 }
+.sheds-production{
+    align-items: baseline;
+    box-sizing: border-box;
+    width: 60%;
+    float: right;
+    /* background: #f44336; */
+    padding-top: 15px;
+    padding-bottom: 20px;
+    display: inline-block;
+    font-size: 20px;
+    
+}
+.sheds-production ul{
+    display: flex;
+    display: inline-block;
+    align-items: center;
+
+}
+
+.sheds-production ul li{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 23px;
+    height: 15px; */
+}
  .left{
     width: 80%;
     color: black;
@@ -119,30 +145,40 @@ nav img{
         z-index: 2;
     }
 }
+.production-automation h1{
+   /* width: 100%;
+    background-image: url("../images/dairy-farm-new-hampshire-new-england-america.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh; */
+     align-items: center;
+    margin-bottom: 14px;
+
+}
+
+
 .record-input-section{
     display: flex;
     width: 90% !important;
     justify-content: space-between;
-    background: whitesmoke
-    margin-top: 26px;
+    margin-top: 40px; 
     margin: auto;
 
 }
 .input-per-shed{
     padding-top: 30px;
     box-sizing: border-box;
-    justify-content: center;
+    justify-content: space-between;
     border: 1px solid rgb(202, 202, 202);
-    padding-right: 18px;
-    margin-top: 18px;
-    margin-bottom: 100px;
+    width: 50%;
+   
 }
-
 .page-title{
     text-align: center;
     margin: auto;
-    margin-left: 10%
-    margin-right: 10%; 
+    /* margin-left: 10%;
+    margin-right: 10%;  */
     background: #7681d3;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -151,13 +187,53 @@ nav img{
     display: flex;
     width: 90% !important;
     justify-content: space-between;
-    background: whitesmoke
-    margin-top: 26px;
-    /* margin: auto; */
+    /* background: whitesmoke; */
+    margin-top: 26px; 
+    margin: auto;
+    margin-bottom: 20%;
 
 }
 .montly-form-section > h3{
     text-align: left;
 
 }
-    
+.footer-information-mnu {
+	height: 600;
+	background-color: #0f298b;
+	max-width: 1024;
+	padding-top: 100px;
+}
+
+.footer-information-mnu {
+	display: flex;
+	/* align-items: center; */
+	justify-content: space-between;
+	margin: auto;
+	padding: 80px;
+	padding-top: 40px;
+}
+.menu-colums-options {
+	width: 20%;
+	margin: 20px;
+}
+.menu-colums-options > h2 {
+	color: #fff;
+}
+.footer-logo {
+	color: #fff;
+	font-size: 13px;
+}
+.menu-colums-options > ul > li {
+	list-style: none;
+	margin-top: 20px;
+}
+.menu-colums-options > ul > li a {
+	text-decoration: none;
+	margin-top: 20px;
+	color: azure;
+	font-size: 15px;
+}
+.menu-colums-options > p {
+	color: azure;
+	font-size: 15px;
+}  
