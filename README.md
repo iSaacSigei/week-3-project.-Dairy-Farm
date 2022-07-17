@@ -6,12 +6,37 @@
 ## Table of Content
 
 + [Description](#description)
++ [Installation Requirement](#Installation)
++ [Technology Used](#technology-used)
++ [Reference](#reference)
 + [Licence](#licence)
 + [Authors Info](#author-Info)
 
 ## Description
 <p>This project entails a detailes website of a Agricultural Dairy Farm company, the company seeks to automate the milk production records to 
 make it easier for monitoring the production at the farm. The website allows a farmer to perform simple record calculations of milk productions. The farmer is prompted to enter the milk production per shed after which productions is calculated systemically</p>
+
+## Installation
+
+### Requirements
+
+* Either a computer,phone,tablet or an Ipad
+
+* An access to the Internet
+
+### Installation Process
+
+[Go Back to the top](#portfolio)
+## Technology Used
+* HTML - which was used to build the structure of the pages.
+
+* CSS - which was used to style the pages incuding the left aside navigation bar
+* JS - Which is used to make the webpage responsive, in the case ot allows the farmer to input milk production records.
+
+## Reference
+* Materialize CSS
+
+[Go Back to the top](#portfolio)
 
 ## Licence
 MIT License
