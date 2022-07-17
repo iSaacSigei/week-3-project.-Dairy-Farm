@@ -51,9 +51,6 @@ nav img{
     background-size: cover;
     position: relative;
     height: 100vh;
-    /* align-items: center;
-    margin: auto;
-    flex-direction: row; */
 }
 .cover-page{
     display: flex;
@@ -63,31 +60,34 @@ nav img{
 
 }
 .sheds-production{
-    align-items: baseline;
     box-sizing: border-box;
-    width: 60%;
-    float: right;
-    /* background: #f44336; */
+    width: 80%;
     padding-top: 15px;
     padding-bottom: 20px;
     display: inline-block;
     font-size: 20px;
-    
+    margin: auto;
+    margin-left: 10%;
+   
 }
-.sheds-production ul{
+.sheds-production > h1{
+    font-size: 30px;
+    font-weight: 300;
+    margin: auto;
+   
+}
+form ul{
     display: flex;
     display: inline-block;
-    align-items: center;
-
+    align-items: baseline;
 }
 
-.sheds-production ul li{
+form ul li{
     display: inline-block;
     align-items: center;
     justify-content: space-between;
-    /* width: 23px;
-    height: 15px; */
-}
+    
+                                                
  .left{
     width: 80%;
     color: black;
@@ -111,7 +111,7 @@ nav img{
     text-decoration: none;
     color:black;
     border:1px solid rgb(27, 25, 25);
-    margin-top: 60px;
+    margin-top: 20px;
     padding: 12px 34px;
     font-size: 20px;
     background: transparent;
@@ -145,38 +145,42 @@ nav img{
         z-index: 2;
     }
 }
-.production-automation h1{
+/* .production-automation h1{ */
    /* width: 100%;
     background-image: url("../images/dairy-farm-new-hampshire-new-england-america.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
     height: 100vh; */
-     align-items: center;
-    margin-bottom: 14px;
+     /* align-items: center;
+    margin-bottom: 14px; */
 
-}
 
 
 .record-input-section{
     display: flex;
-    width: 90% !important;
+    width: 90%;
     justify-content: space-between;
+    padding: 12px 12px;
     margin-top: 40px; 
     margin: auto;
-    background: #f44336;
+    /* background: #f44336; */
 
+}
+.yearly-pproduction{
+    padding: 15px 15px;
 }
 .input-per-shed{
     padding-top: 30px;
     box-sizing: border-box;
-    justify-content: space-between;
+    justify-content: center;
     border: 1px solid rgb(202, 202, 202);
-    width: 50%;
+    width: 40%;
    
 }
 #calc{
-    background: #f44336;
+    text-decoration: none;
+    /* background: #f44336; */
     font-size: 22px;
     color: black;
 }
