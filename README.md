@@ -11,7 +11,7 @@
 
 ## Description
 <p>This project entails a detailes website of a Agricultural Dairy Farm company, the company seeks to automate the milk production records to 
-make it easier for monitoring the production at the farm</p>
+make it easier for monitoring the production at the farm. The website allows a farmer to perform simple record calculations of milk productions. The farmer is prompted to enter the milk production per shed after which productions is calculated systemically</p>
 
 ## Licence
 MIT License
