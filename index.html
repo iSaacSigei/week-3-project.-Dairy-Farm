@@ -14,57 +14,57 @@
 <body>
     <!--Cover-page and logo Section-->
     <div class="container">
-        <nav>
-            <a href="#"><img src="./assets/images/DairyFarm_logo.svg.png"></a>
-            <div class="nav-links">
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">ABOUT US</a></li>
-                        <li><a href="">Produts</a></li>
-                        <li><a href="">EMPLOYERS AND PARTNERS</a></li>
-                        <li><a href="">EVENTS</a></li>
-                        <li><a href="">BLOG</a></li>
-                        <li><a href="">CONTACT</a></li>
-                    </ul>
+            <nav>
+                <a href="#"><img src="./assets/images/DairyFarm_logo.svg.png"></a>
+                <div class="nav-links">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">ABOUT US</a></li>
+                            <li><a href="">Produts</a></li>
+                            <li><a href="">EMPLOYERS AND PARTNERS</a></li>
+                            <li><a href="">EVENTS</a></li>
+                            <li><a href="">BLOG</a></li>
+                            <li><a href="">CONTACT</a></li>
+                        </ul>
 
+                </div>
+            </nav>
+            
+        <!-- cover-page-section -->
+            <div class="cover-background">
+                <div class="cover-page">
+
+                    <div class=" left">
+                        <h1> Kenya's Best Dairy Farm</h1>
+                        <p> We value the production of safe,and quality milk <br> from healthy animals under generally acceotable conditions. <br>
+                            We appliy the worlwide approve Good Agricultural Practice (GAP)</p>    
+                        <a href="" class="page-btn"> SEE OUR PRODUCTS</a>
+                    </div>   
+                
+                </div>
+                <div class="sheds-production">
+                    <h1 id="input-prompt"> Kindly Fill in the daily production
+                    per shed </h1>
+                            <form>
+                                <ul>
+                                   <li>Shed A: <input type="number" name="shedAProduction" /><br /></li>
+                                   <li>Shed B: <input type="number" name="shedBProduction" /><br /></li>
+                                   <li>Shed C: <input type="number" name="shedCProduction" /><br /></li>
+                                   <li>Shed D: <input type="number" name="shedDProduction" /><br /></li>
+                                   <li>Total Shed production: <input type="number" name="sum" /><br />
+                                    <li id="calc"><input type="button" value="Calculate" onclick="totalProduction()" /></li> 
+                                </ul>
+                            </form>
+                </div>
             </div>
-        </nav>
-            
-    <!-- cover-page-section -->
-        <div class="cover-background">
-            <div class="cover-page">
-
-                <div class=" left">
-                    <h1> Kenya's Best Dairy Farm</h1>
-                    <p> We value the production of safe,and quality milk <br> from healthy animals under generally acceotable conditions. <br>
-                        We appliy the worlwide approve Good Agricultural Practice (GAP)</p>    
-                    <a href="" class="page-btn"> SEE OUR PRODUCTS</a>
-                </div>   
-            
-        </div>
-    </div>
-   <!-- production records automation -->
-   
-    <div class="production-automation">
-        <h1 class="page-title">Dairy Farm Records</h1>
-        <div class="record-input-section">
-            
-           <!-- filling daily production per -->
-
-             <div class="input-per-shed">
-                <h1 id="input-prompt"> Kindly Fill in the daily<br>production
-                per shed </h1>
-                        <form>
-                            Shed A: <input type="number" name="shedAProduction" /><br />
-                            Shed B: <input type="number" name="shedBProduction" /><br />
-                            Shed C: <input type="number" name="shedCProduction" /><br />
-                            Shed D: <input type="number" name="shedDProduction" /><br />
-                            Sum: <input type="number" name="sum" /><br />
-                            <input type="button" value="Total" onclick="totalProduction()" />
-                        </form>
-                    </div>
-               <!-- Production per shed -->
-               <div class="input-per-shed">
+                    
+            <!-- production records automation -->
+        
+            <div class="production-automation">
+                <h1 class="page-title">Dairy Farm Records</h1>
+                <div class="record-input-section">
+                    
+                  <div class="input-per-shed" id="shed-cacl">
                         <div class="shed-total-production">
                             <p class="shedA-total"></p>
                             <p class="shedB-total"></p>
@@ -72,24 +72,24 @@
                             <p class="shedD-total"></p>
                             <p class="total-production"></p>
                         </div>
-                </div>
-               <!-- Yearly Production Calculation -->
-               <div class="input-per-shed">
-                    <div class="yearly-pproduction">
-                        <h3>Yearly income</h3>
+                        </div>
+                    <!-- Yearly Production Calculation -->
+                    <div class="input-per-shed">
+                            <div class="yearly-pproduction">
+                                <h3>Yearly income</h3>
 
-                        <form>
-                        Enter total-production: <input type="number" name="total-daily" /><br />
-                        <input type="button" value="Calculate" onclick="incomeOverTime(45, 365)" />
-                        </form>
+                                <form>
+                                Enter total-production: <input type="number" name="total-daily" /><br />
+                                <input type="button" value="Calculate" onclick="incomeOverTime(45, 365)" />
+                                </form>
 
-                        <p class="timely-earnings"></p>
-                        <br />
+                                <p class="timely-earnings"></p>
+                                <br />
 
-                    </div>
-                </div>
-        </div>
-        <!-- Montly income section  -->
+                           </div>
+                  </div>
+              </div>
+               <!-- Montly income section  -->
                 <div class="montly-come">
                     <div class="montly-form-section">
                         <h3>Montly income</h3>
@@ -115,8 +115,47 @@
                             <p class="dec-total"></p>
                         </div>
                 </div>
+          </div>
+          <footer>
+            <div class="footer-information-mnu">
+                <div class="menu-colums-options">
+                    <div class="logo footer-logo">
+                        <h1>Dary Farm</h1>
+                    </div>
+                    <p>
+                        Kenya's Best Dairy Farm
+                    </p>
+                </div>
+                <div class="menu-colums-options">
+                    <h2>Products</h2>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Partnership</a></li>
+                        <li><a href="">visit or farm</a></li>
+                        <li><a href="">Events</a></li>
+                    </ul>
+                </div>
+                <div class="menu-colums-options">
+                    <h2>About</h2>
+                    <ul>
+                        <li><a href="">Our Company</a></li>
+                        <li><a href="">location</a></li>
+                        <li><a href="">Investors Relations</a></li>
+                        <li><a href="">Social Impact</a></li>
+                    </ul>
+                </div>
+                <div class="menu-colums-options">
+                    <h2>Resources</h2>
+                    <ul>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Give feedback</a></li>
+                        <li><a href="">Sent us a Message</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </div>
-</div>
-<script src="./assets/JS/index.js"></script>
-</body>
+              <script src="./assets/JS/index.js"></script>
+ </body>
 </html>
