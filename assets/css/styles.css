@@ -70,6 +70,9 @@ nav img{
     margin-left: 10%;
    
 }
+.shed-total-production h2{
+    font-size: 24px;
+}
 .sheds-production > h1{
     font-size: 30px;
     font-weight: 300;
@@ -78,17 +81,19 @@ nav img{
 }
 form ul{
     display: flex;
+
     display: inline-block;
-    align-items: baseline;
+
+    list-style: none;  
 }
 
-form ul li{
+.form ul li{
     display: inline-block;
     align-items: center;
     justify-content: space-between;
-    
-                                                
- .left{
+                                                   
+}
+.left{
     width: 80%;
     color: black;
     margin: auto;
@@ -145,21 +150,9 @@ form ul li{
         z-index: 2;
     }
 }
-/* .production-automation h1{ */
-   /* width: 100%;
-    background-image: url("../images/dairy-farm-new-hampshire-new-england-america.jpg");
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    height: 100vh; */
-     /* align-items: center;
-    margin-bottom: 14px; */
-
-
-
 .record-input-section{
     display: flex;
-    width: 90%;
+    width: 80%;
     justify-content: space-between;
     padding: 12px 12px;
     margin-top: 40px; 
@@ -171,11 +164,14 @@ form ul li{
     padding: 15px 15px;
 }
 .input-per-shed{
+    padding-left: 12px;
     padding-top: 30px;
     box-sizing: border-box;
     justify-content: center;
-    border: 1px solid rgb(202, 202, 202);
-    width: 40%;
+    border: 1px solid whitesmoke;
+    width: 46%;
+    box-shadow: 2px 2px grey;
+    background: #ffedec;
    
 }
 #calc{
@@ -195,24 +191,34 @@ form ul li{
 }
 .montly-come{
     display: flex;
-    width: 90% !important;
+    width: 80%;
     justify-content: space-between;
     /* background: whitesmoke; */
     margin-top: 26px; 
     margin: auto;
-    margin-bottom: 20%;
+    margin-bottom: 2%;
+    margin-top: 2%;
 
 }
-.montly-form-section > h3{
-    text-align: left;
-
+.montly-form-section{
+    padding-left: 12px;
+    height: 400px;
+    background: #ffedec;
+    padding-top: 30px;
+    box-sizing: border-box;
+    justify-content: center;
+    border: 1px solid whitesmoke;
+    width: 46%;
+    box-shadow: 2px 2px grey;
+    padding-bottom: 15px;
+   
 }
 .footer-information-mnu {
 	height: 600;
 	background-color: #0f298b;
 	width: 80%;
 	padding-top: 100px;
-    margin-bottom: 10%;
+    margin-to: 20px;
 }
 
 .footer-information-mnu {
