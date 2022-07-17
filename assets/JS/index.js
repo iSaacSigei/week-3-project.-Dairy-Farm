@@ -40,6 +40,7 @@ function totalProduction() {
   }
   
   incomeOverTime(45, 365);
+  // incomeLeapYear(45, 366);
   
   function monthlyIncome() {
     let totals = document.getElementsByName("total-output")[0].value;
